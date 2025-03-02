@@ -1,0 +1,42 @@
+.sidebarContent {
+  /* 左サイドバーの背景色と文字色 */
+  background-color: #000;
+  color: #fff;
+  /* 内側の余白 */
+  padding: 20px;
+  /* 全体のフォントサイズを少し大きめに */
+  font-size: 1.2rem;
+}
+
+.menuTitle {
+  margin-bottom: 20px;
+}
+
+.menuList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  /* アイコンとテキストを横並びに */
+  display: flex;
+  align-items: center;
+  /* アイテム間の余白など */
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  /* ホバー時の背景色 */
+  transition: background-color 0.2s ease;
+}
+
+.menuItem:hover {
+  background-color: #333;
+}
+
+/* アイコンのスタイル */
+.icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
